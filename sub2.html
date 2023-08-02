@@ -1,44 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <meta charset="utf-8" />
-    <title>다음 지도 API</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>나와 맞는 주류 찾기!</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script defer src="./js/share.js"></script>
   </head>
   <body>
-    <div id="map" style="width: 100%; height: 100vh"></div>
-
-    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=4a14ac2ec9df8726fc3ad08ca31d1792"></script>
-    <script>
-      var mapContainer = document.getElementById("map"), // 지도를 표시할 div
-        mapOption = {
-          center: new kakao.maps.LatLng(37.56682, 126.97927), // 지도의 중심좌표
-          level: 3, // 지도의 확대 레벨
-          mapTypeId: kakao.maps.MapTypeId.ROADMAP, // 지도종류
-        };
-
-      // 지도를 생성한다
-      var map = new kakao.maps.Map(mapContainer, mapOption);
-
-      // 지도에 마커를 생성하고 표시한다
-      var marker = new kakao.maps.Marker({
-        position: new kakao.maps.LatLng(37.56683, 126.97928), // 마커의 좌표
-        map: map, // 마커를 표시할 지도 객체
-      });
-
-      // 마커에 클릭 이벤트를 등록한다 (우클릭 : rightclick)
-      kakao.maps.event.addListener(marker, "click", function () {
-        alert("마커를 클릭했습니다!");
-      });
-
-      // 커스텀 오버레이를 생성하고 지도에 표시한다
-      var customOverlay = new kakao.maps.CustomOverlay({
-        map: map,
-        content:
-          '<div style="padding:0 5px;background:#fff;">HTML코드를 입력해주세요 :D</div>',
-        position: new kakao.maps.LatLng(37.56683, 126.97928), // 커스텀 오버레이를 표시할 좌표
-        xAnchor: 0.5, // 컨텐츠의 x 위치
-        yAnchor: 0, // 컨텐츠의 y 위치
-      });
-    </script>
+    <h2 class="page-subtitle">1조: STATUS 200</h2>
+    <h1 class="page-title">나와 맞는 술 찾기<br /></h1>
+    <img src="./images/img1.jpg" alt="캐릭터" class="character" />
+    <a href="questions.html" class="btn btn-orange"> 부산에 술 마시러 GO! </a>
+    <div class="btn btn-green btn-small share-or-copy">주변에 알리기</div>
   </body>
 </html>
