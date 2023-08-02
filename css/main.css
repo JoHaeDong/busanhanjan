@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff5722;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.user-actions a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.user-actions a:first-child {
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.user-actions a:last-child {
+  font-size: 16px;
+}
+
+.header-image {background-image: url('header.png');
+  /* 원하는 큰 사진 이미지의 스타일을 추가 */
+  /* 예시: background-image: url('이미지_경로.jpg'); */
+}
