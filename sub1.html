@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>부산 한잔</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="tab-scroll">
+      <ul class="tab tab-depth">
+        <li class="tab-menu selected">
+          <a href="">전체</a>
+        </li>
+        <li class="tab-menu">
+          <a href="">탁주</a>
+        </li>
+        <li class="tab-menu">
+          <a href="">약주,청주</a>
+        </li>
+        <li class="tab-menu">
+          <a href="">과실주</a>
+        </li>
+        <li class="tab-menu">
+          <a href="">증류주</a>
+        </li>
+        <li class="tab-menu">
+          <a href="">리큐르/기타주류</a>
+        </li>
+      </ul>
+    </div>
+    <div class="total">Total <span> 922 </span></div>
+    <div class="radio-area">
+      <label for="radio-type1" class="radio-box">
+        <input id="radio-type1" name="searchType" type="radio" value="1" />
+        <span>키워드 검색</span>
+      </label>
+      <label for="radio-type2" class="radio-box">
+        <input id="radio-type2" name="searchType" type="radio" value="2" />
+        <span>명칭검색</span>
+      </label>
+    </div>
+    <div class="search-wrap">
+      <div class="search-area1" style="display: none">
+        <div class="search-input">
+          <input type="text" id="searchKey" name="searchKey" />
+          <button
+            id="btnKeyword"
+            onclick="javascript:search('keyword');"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
