@@ -49,83 +49,24 @@
   background-color: #777
 }
 
-@font-face {
-  font-family: SpoqaHanSans;
-  font-display: auto;
-  font-weight: 200;
-  font-style: normal;
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Thin.eot);
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Thin.eot?#iefix) format("embedded-opentype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff2/SpoqaHanSans-Thin.woff2) format("woff2"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff/SpoqaHanSans-Thin.woff) format("woff"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/ttf/SpoqaHanSans-Thin.ttf) format("truetype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/svg/SpoqaHanSans-Thin.svg#svgFontName) format("svg")
-}
+/* 폰트 설정 참고
+@import url(“https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap”);
+3:24
+부산한잔 <i class=“fa-solid fa-whiskey-glass”></i>
+3:24
+<link
+      rel=“stylesheet”
+      href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css”
+      integrity=“sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==”
+      crossorigin=“anonymous”
+      referrerpolicy=“no-referrer”
+    />
 
-@font-face {
-  font-family: SpoqaHanSans;
-  font-display: auto;
-  font-weight: 400;
-  font-style: normal;
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Regular.eot);
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Regular.eot?#iefix) format("embedded-opentype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff2/SpoqaHanSans-Regular.woff2) format("woff2"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff/SpoqaHanSans-Regular.woff) format("woff"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/ttf/SpoqaHanSans-Regular.ttf) format("truetype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/svg/SpoqaHanSans-Regular.svg#svgFontName) format("svg")
-}
 
-@font-face {
-  font-family: SpoqaHanSans;
-  font-display: auto;
-  font-weight: 600;
-  font-style: normal;
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Bold.eot);
-  src: url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/eot/SpoqaHanSans-Bold.eot?#iefix) format("embedded-opentype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff2/SpoqaHanSans-Bold.woff2) format("woff2"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/woff/SpoqaHanSans-Bold.woff) format("woff"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/ttf/SpoqaHanSans-Bold.ttf) format("truetype"), url(https://mp-seoul-image-production-s3.mangoplate.com/assets/fonts/svg/SpoqaHanSans-Bold.svg#svgFontName) format("svg")
-}
 
-@font-face {
-  font-family: 'Noto Sans SC';
-  font-style: normal;
-  font-weight: 200;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.otf) format("opentype")
-}
+*/
 
-@font-face {
-  font-family: 'Noto Sans SC';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format("opentype")
-}
 
-@font-face {
-  font-family: 'Noto Sans SC';
-  font-style: normal;
-  font-weight: 600;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.otf) format("opentype")
-}
-
-@-webkit-keyframes placeholderAnimation {
-  0% {
-    background-position: -650px 0
-  }
-
-  100% {
-    background-position: 650px 0
-  }
-}
-
-@-moz-keyframes placeholderAnimation {
-  0% {
-    background-position: -650px 0
-  }
-
-  100% {
-    background-position: 650px 0
-  }
-}
-
-@keyframes placeholderAnimation {
-  0% {
-    background-position: -650px 0
-  }
-
-  100% {
-    background-position: 650px 0
-  }
-}
 
 * {
   margin: 0;
@@ -133,7 +74,7 @@
 }
 
 html {
-  font-family: SpoqaHanSans, "Noto Sans SC", "APPLE SD Gothic NEO", sans-serif;
+  font-family: spoqahansans, "noto sans sc", "apple sd gothic neo", sans-serif;
   word-wrap: break-word
 }
 
@@ -303,7 +244,7 @@ img {
   align-items: flex-start
 }
 
-:lang(ko) {
+/* :lang(ko) {
   word-break: keep-all
 }
 
@@ -313,7 +254,7 @@ img {
 
 :lang(zh) {
   word-break: keep-all
-}
+} */
 
 [ng-cloak],
 [ng\:cloak] {
@@ -328,7 +269,7 @@ a:hover {
   text-decoration: none
 }
 
-@-webkit-keyframes ani_star {
+/* @-webkit-keyframes ani_star {
   30% {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -393,7 +334,7 @@ only screen and (min-resolution:240dpi) {
   .sprite {
     background-image: url(/assets/common/icons@2x.png)
   }
-}
+} */
 
 .center-croping {
   position: absolute;
@@ -447,7 +388,7 @@ body {
   background-color: #fff
 }
 
-@media only screen and (min-width:769px) {
+/* @media only screen and (min-width:769px) {
   body {
     min-width: 1200px;
     background-color: #fff
@@ -542,7 +483,7 @@ body {
   100% {
     background-position: 650px 0
   }
-}
+} */
 
 .Menu {
   position: fixed;
@@ -636,7 +577,7 @@ body {
   color: #fff
 }
 
-@-webkit-keyframes placeholderAnimation {
+/* @-webkit-keyframes placeholderAnimation {
   0% {
     background-position: -650px 0
   }
@@ -1024,7 +965,7 @@ body {
   100% {
     background-position: 650px 0
   }
-}
+} */
 
 .UserProfileButton {
   display: -moz-flex;
@@ -1061,7 +1002,7 @@ body {
   display: block
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .UserProfileButton__PersonIcon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile.png);
     background-position: -322px -114px;
@@ -1076,7 +1017,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile@2x.png);
     background-size: 635px 609px
   }
-}
+} */
 
 .UserProfileButton__HistoryCount {
   display: -moz-flex;
@@ -1110,7 +1051,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   background-color: #ff792a
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .UserProfileButton__HistoryCount {
     width: 19px;
     height: 19px;
@@ -1148,7 +1089,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   100% {
     background-position: 650px 0
   }
-}
+} */
 
 .MenuButton {
   position: relative
@@ -1162,7 +1103,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   display: block
 }
 
-@media (-webkit-min-device-pixel-ratio:2),
+/* @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
   .MenuButton__Icon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile@2x.png);
@@ -1282,7 +1223,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
     transform: scale(1);
     -webkit-transform: scale(1)
   }
-}
+} */
 
 .UserRestaurantHistory {
   display: none
@@ -1310,14 +1251,14 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   -webkit-overflow-scrolling: touch
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .UserRestaurantHistory__Container {
     top: 60px;
     left: 0;
     width: 100%;
     height: calc(100% - 60px)
   }
-}
+} */
 
 .UserRestaurantHistory__Footer {
   display: -moz-flex;
@@ -1363,12 +1304,12 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   background-color: #fff
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header {
     height: 50px;
     border-bottom: 0
   }
-}
+} */
 
 .Header--Transparent {
   border-bottom: 0;
@@ -1400,30 +1341,30 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   margin: 0 25px
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__Logo {
     margin: 0 0 0 15px
   }
-}
+} */
 
 .Header__LogoIcon {
-  width: 100px;
-  height: 33px;
-  background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/mangoplate-logo-horizontal.svg);
+  width: 200px;
+  height: 50px;
+  background-image: url(/images/main/logoicon.png);
   background-size: cover;
   background-repeat: no-repeat
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__LogoIcon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile.png);
     background-position: -491px -56px;
     width: 19px;
     height: 35px
   }
-}
+} */
 
-@media only screen and (min-width:320px) and (max-width:768px) and (-webkit-min-device-pixel-ratio:2),
+/* @media only screen and (min-width:320px) and (max-width:768px) and (-webkit-min-device-pixel-ratio:2),
 only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192dpi) {
   .Header__LogoIcon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile@2x.png);
@@ -1435,7 +1376,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   .Header--Transparent .Header__LogoIcon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/mangoplate-gray-logo.svg)
   }
-}
+} */
 
 .Header__SearchBox {
   display: -moz-flex;
@@ -1468,11 +1409,11 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   padding-left: 27px
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__SearchBox {
     padding-left: 14px
   }
-}
+} */
 
 .Header[data-page=home] .Header__SearchBox {
   display: none
@@ -1518,7 +1459,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   background-size: auto
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__SearchIcon {
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile.png);
     background-position: -472px -539px;
@@ -1534,7 +1475,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
     background-image: url(https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2018022864551sprites_mobile@2x.png);
     background-size: 635px 609px
   }
-}
+} */
 
 .Header__SearchInput {
   -moz-box-flex: 1;
@@ -1552,11 +1493,11 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   display: none
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__SearchInput {
     font-size: 12px
   }
-}
+} */
 
 .Header--Transparent .Header__SearchInput {
   background-color: transparent
@@ -1570,13 +1511,13 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   color: #dbdbdb
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+/* @media only screen and (min-width:320px) and (max-width:768px) {
   .Header__SearchInputClearButton {
     margin: 0 10px;
     font-size: 13px;
     line-height: 15px
   }
-}
+} */
 
 .Header__MenuList {
   display: -moz-flex;
@@ -2812,7 +2753,7 @@ footer.footer .language-copyrights .select-language a+a:before {
   position: relative;
   margin: 34px 15px 0 15px;
   height: 48px;
-  border: 1px solid #ff792a;
+  border: 1px solid #00cbcb;
   border-radius: 50px;
   background-color: #fff
 }
@@ -2872,7 +2813,7 @@ footer.footer .language-copyrights .select-language a+a:before {
   color: #fff;
   line-height: 48px;
   border-radius: 50px;
-  background-color: #ff7100;
+  background-color: #00cbcb;
   height: 100%;
   -webkit-appearance: none
 }
@@ -3200,7 +3141,7 @@ only screen and (min-width:320px) and (max-width:768px) and (min-resolution:192d
   margin: 0 auto;
   font-size: .875rem;
   line-height: 20px;
-  color: #ff792a
+  color: #00cbcb;
 }
 
 .pg-main .more_btn:before {
