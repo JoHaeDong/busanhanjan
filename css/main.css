@@ -6,8 +6,9 @@
   color: #fff;
   width: 200px;
   height: 100vh;
+  padding-left: 20px;
   position: fixed;
-  top: 0;
+  top: 60px;
   left: 0
 }
 
