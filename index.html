@@ -1,404 +1,396 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="subject" content="부산 한 잔: 나만의 술집 검색">
-  
   <title>BusanHanJan</title>
-
   <link rel="stylesheet" media="screen" href="css/main.css" />
-
 </head>
 
 <body class="home_page" onunload="">
 
-<main class="pg-main">
-  <div class="black_screen"></div>
-  <article class="contents main-padding">
-    <header class="main-header" style="background-image: url('images/header.png');">
+  <main class="pg-main">
+    <div class="black_screen"></div>
+    <article class="contents main-padding">
+      <header class="main-header" style="background-image: url('images/main/header.png');">
+        <div>
+          <p class="title">나의 취향에 맞는 술 맛집!</p>
+          <h1 class="title">부산 한 잔</h1>
+
+          <fieldset class="main-search">
+
+            <label class="search-word" for="main-search">
+              <span class="icon">검색 :</span>
+              <input id="main-search" class="HomeSearchInput" name="main-search" type="text" maxlength="50"
+                placeholder="술 이름, 식당 또는 지역" />
+            </label>
+
+            <input class="btn-search" type="submit" value="검색" onclick="" />
+          </fieldset>
+
+          <aside class="shortcut-app type-main">
+
+
+            <button class="btn android">
+              <img src="images/main/googleplay.png" width="180" alt="android market button" />
+            </button>
+
+            <button class="btn ios">
+              <img src="images/main/appstore.png" width="180" height="45" alt="app store" />
+            </button>
+          </aside>
+        </div>
+      </header>
+
       <div>
-  <p class="title">나의 취향에 맞는 술 맛집!</p>
-  <h1 class="title">부산 한 잔</h1>
-  <p class="options">
-  </p>
+        <leftSidebar>
+          <div class="sidebar">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/korean_beer.png" alt="국산 맥주" </sapn>
+                    국산 맥주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">라거</a></li>
+                  <li><a href="#">위트에일</a></li>
+                  <li><a href="#">에일</a></li>
+                  <li><a href="#">IPA</a></li>
+                  <li><a href="#">스타우트/포터</a></li>
+                  <li><a href="#">복</a></li>
+                  <li><a href="#">람빅/사워</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/imported_beer.png" alt="수입 맥주" </sapn>
+                    수입 맥주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">라거</a></li>
+                  <li><a href="#">위트에일</a></li>
+                  <li><a href="#">에일</a></li>
+                  <li><a href="#">IPA</a></li>
+                  <li><a href="#">스타우트/포터</a></li>
+                  <li><a href="#">복</a></li>
+                  <li><a href="#">람빅/사워</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/soju.png" alt="소주" </sapn>
+                    일반 소주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">증류식</a></li>
+                  <li><a href="#">희석식</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/wine.png" alt="와인" </sapn>
+                    와인
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">레드 와인</a></li>
+                  <li><a href="#">화이트 와인</a></li>
+                  <li><a href="#">스파클링 와인</a></li>
+                  <li><a href="#">로제 와인</a></li>
+                  <li><a href="#">오렌지 와인</a></li>
+                  <li><a href="#">디저트 와인</a></li>
+                  <li><a href="#">주정강화 와인</a></li>
+                  <li><a href="#">내추럴 레드 와인</a></li>
+                  <li><a href="#">내추럴 오렌지 와인</a></li>
+                  <li><a href="#">내추럴 로제 와인</a></li>
+                  <li><a href="#">내추럴 화이트 와인</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/whisky.png" alt="위스키" </sapn>
+                    위스키
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">싱글 몰트 위스키</a></li>
+                  <li><a href="#">블렌디드 몰트 위스키</a></li>
+                  <li><a href="#">그레인 위스키</a></li>
+                  <li><a href="#">블렌디드 위스키</a></li>
+                  <li><a href="#">아이리시 위스키</a></li>
+                  <li><a href="#">버번 위스키</a></li>
+                  <li><a href="#">콘 위스키</a></li>
+                  <li><a href="#">라이 위스키</a></li>
+                  <li><a href="#">테네시 위스키</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/spirit.png" alt="일반 증류주" </sapn>
+                    일반 증류주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">진</a></li>
+                  <li><a href="#">보드카</a></li>
+                  <li><a href="#">럼</a></li>
+                  <li><a href="#">데킬라</a></li>
+                  <li><a href="#">메즈칼</a></li>
+                  <li><a href="#">셰리</a></li>
+                  <li><a href="#">베르무트</a></li>
+                  <li><a href="#">아쿠아비트</a></li>
+                  <li><a href="#">압생트</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/takju.png" alt="탁주" </sapn>
+                    탁주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">동동주</a></li>
+                  <li><a href="#">막걸리</a></li>
+                  <li><a href="#">이화주</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/fruit_liquor.png" alt="과실주" </sapn>
+                    과실주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">사이더</a></li>
+                  <li><a href="#">미드</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/chinese_liquor.png" alt="중국술" </sapn>
+                    중국술
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">황주</a></li>
+                  <li><a href="#">백주</a></li>
+                  <li><a href="#">약미주</a></li>
+                  <li><a href="#">과일주</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/sake.png" alt="사케" </sapn>
+                    사케
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">보통주</a></li>
+                  <li><a href="#">준마이</a></li>
+                  <li><a href="#">준마이 긴죠</a></li>
+                  <li><a href="#">준마이 다이긴죠</a></li>
+                  <li><a href="#">긴죠</a></li>
+                  <li><a href="#">다이긴죠</a></li>
+                  <li><a href="#">혼죠조</a></li>
+                  <li><a href="#">청주</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/brandy.png" alt="브랜디" </sapn>
+                    브랜디
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">꼬냑</a></li>
+                  <li><a href="#">아르마냑</a></li>
+                  <li><a href="#">칼바도스</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/liqueur.png" alt="리큐르" </sapn>
+                    리큐르
+                </a>
+                <ul class="submenu">
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/traditional_soju.png" alt="전통 소주" </sapn>
+                    전통 소주
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">증류식</a></li>
+                  <li><a href="#">희석식</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/cheongju.png" alt="청주" </sapn>
+                    청주
+                </a>
+                <ul class="submenu">
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/others.png" alt="기타 주류" </sapn>
+                    기타 주류
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">스피릿</a></li>
+                  <li><a href="#">하드 셀처</a></li>
+                  <li><a href="#">칵테일</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <sapn><img src="images/main/non_alcohol.png" alt="논알콜" </sapn>
+                    논알콜
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">맥주</a></li>
+                  <li><a href="#">와인</a></li>
+                  <li><a href="#">위스키</a></li>
+                  <li><a href="#">기타</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
 
-  <fieldset class="main-search">
+        </leftSidebar>
+      </div>
 
-    <label class="search-word" for="main-search">
-      <span class="icon">검색 :</span>
-      <input id="main-search" class="HomeSearchInput" name="main-search" type="text" maxlength="50" placeholder="술 이름, 식당 또는 지역"/>
-    </label>
+      <!-- 메인컨텐츠 시작 -->
+      <section class="module popular_top_list_wrap">
+        <div class="module_title_wrap">
+          <h2 class="title">신규 추천 리스트</h2>
+          <a class="module_more" href=>
+            지도로 보기
+          </a>
 
-    <input class="btn-search" type="submit" value="검색" onclick=""/>
-  </fieldset>
+        </div>
+        <div class="slider-container toplist-slider">
+          <button class="btn-nav prev"></button>
+          <button class="btn-nav next"></button>
 
-  <aside class="shortcut-app type-main">
-      
+          <div class="top_list_slide">
+            <ul class="list-toplist-slider" style="width: 531px;">
+              <li>
+                <img class="center-croping" alt="23년 상반기 베스트 25곳" <figure class="ls-item">
+                <figcaption class="info">
+                  <div class="info_inner_wrap">
+                    <span class="title">23년 상반기 베스트 25곳</span>
+                    <p class="desc">"맛 좋은 술과 분위기는 UP!"</p>
+                  </div>
+                  </figure>
+                  </a>
+              </li>
+              <li>
+      </section>
 
-    <button class="btn android">
-      <img src="images/main/googleplay.png" width="180" alt="android market button"/>
-    </button>
+  </main>
 
-    <button class="btn ios">
-      <img src="images/main/appstore.png" width="180" height="45" alt="app store"/>
-    </button>
-  </aside>
-</div>
-
-    </header>
-        <section class="module popular_top_list_wrap">
-  <div class="module_title_wrap">
-    <h2 class="title">신규 추천 리스트</h2>
-      <a class="module_more" href=>
-        지도로 보기 
+  <!-- <div class="Menu">
+    <header class="Menu__Header">
+      <a href="/" class="Menu__LogoLink">
+        <i class="Menu__Logo sprite"></i>
       </a>
 
-  <leftSidebar>
-<div class="sidebar">
-    <ul class="menu">
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/korean_beer.png" alt="국산 맥주"</sapn>
-          국산 맥주</a>
-        <ul class="submenu">
-          <li><a href="#">라거</a></li>
-          <li><a href="#">위트에일</a></li>
-          <li><a href="#">에일</a></li>
-          <li><a href="#">IPA</a></li>
-          <li><a href="#">스타우트/포터</a></li>
-          <li><a href="#">복</a></li>
-          <li><a href="#">람빅/사워</a></li>
-          <li><a href="#">기타</a></li>
-        </ul>
-      </li>
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/imported_beer.png" alt="수입 맥주"</sapn>
-          수입 맥주</a>
-        <ul class="submenu">
-          <li><a href="#">라거</a></li>
-          <li><a href="#">위트에일</a></li>
-          <li><a href="#">에일</a></li>
-          <li><a href="#">IPA</a></li>
-          <li><a href="#">스타우트/포터</a></li>
-          <li><a href="#">복</a></li>
-          <li><a href="#">람빅/사워</a></li>
-          <li><a href="#">기타</a></li>
-        </ul>
-      </li>
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/soju.png" alt="소주"</sapn>
-          일반 소주</a>
-        <ul class="submenu">
-          <li><a href="#">증류식</a></li>
-          <li><a href="#">희석식</a></li>
-        </ul>
-      </li>
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/wine.png" alt="와인"</sapn>
-          와인</a>
-        <ul class="submenu">
-          <li><a href="#">레드 와인</a></li>
-          <li><a href="#">화이트 와인</a></li>
-          <li><a href="#">스파클링 와인</a></li>
-          <li><a href="#">로제 와인</a></li>
-          <li><a href="#">오렌지 와인</a></li>
-          <li><a href="#">디저트 와인</a></li>
-          <li><a href="#">주정강화 와인</a></li>
-          <li><a href="#">내추럴 레드 와인</a></li>
-          <li><a href="#">내추럴 오렌지 와인</a></li>
-          <li><a href="#">내추럴 로제 와인</a></li>
-          <li><a href="#">내추럴 화이트 와인</a></li>
-        </ul>
-      </li>
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/whisky.png" alt="위스키"</sapn>
-          위스키</a>
-        <ul class="submenu">
-          <li><a href="#">싱글 몰트 위스키</a></li>
-          <li><a href="#">블렌디드 몰트 위스키</a></li>
-          <li><a href="#">그레인 위스키</a></li>
-          <li><a href="#">블렌디드 위스키</a></li>
-          <li><a href="#">아이리시 위스키</a></li>
-          <li><a href="#">버번 위스키</a></li>
-          <li><a href="#">콘 위스키</a></li>
-          <li><a href="#">라이 위스키</a></li>
-          <li><a href="#">테네시 위스키</a></li>
-          <li><a href="#">기타</a></li>
-        </ul>
-      </li>
-      <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/spirit.png" alt="일반 증류주"</sapn>
-              
-              일반 증류주</a>
-            <ul class="submenu">
-              <li><a href="#">진</a></li>
-              <li><a href="#">보드카</a></li>
-              <li><a href="#">럼</a></li>
-              <li><a href="#">데킬라</a></li>
-              <li><a href="#">메즈칼</a></li>
-              <li><a href="#">셰리</a></li>
-              <li><a href="#">베르무트</a></li>
-              <li><a href="#">아쿠아비트</a></li>
-              <li><a href="#">압생트</a></li>
-              <li><a href="#">기타</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/takju.png" alt="탁주"</sapn>
-              
-              탁주</a>
-            <ul class="submenu">
-              <li><a href="#">동동주</a></li>
-              <li><a href="#">막걸리</a></li>
-              <li><a href="#">이화주</a></li>
-              <li><a href="#">기타</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/fruit_liquor.png" alt="과실주"</sapn>
-              
-              과실주</a>
-            <ul class="submenu">
-              <li><a href="#">사이더</a></li>
-              <li><a href="#">미드</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/chinese_liquor.png" alt="중국술"</sapn>
-              
-              중국술</a>
-            <ul class="submenu">
-              <li><a href="#">황주</a></li>
-              <li><a href="#">백주</a></li>
-              <li><a href="#">약미주</a></li>
-              <li><a href="#">과일주</a></li>
-              <li><a href="#">기타</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/sake.png" alt="사케"</sapn>
-              
-              사케</a>
-            <ul class="submenu">
-              <li><a href="#">보통주</a></li>
-              <li><a href="#">준마이</a></li>
-              <li><a href="#">준마이 긴죠</a></li>
-              <li><a href="#">준마이 다이긴죠</a></li>
-              <li><a href="#">긴죠</a></li>
-              <li><a href="#">다이긴죠</a></li>
-              <li><a href="#">혼죠조</a></li>
-              <li><a href="#">청주</a></li>
-              <li><a href="#">기타</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/brandy.png" alt="브랜디"</sapn>
-              
-              브랜디</a>
-            <ul class="submenu">
-              <li><a href="#">꼬냑</a></li>
-              <li><a href="#">아르마냑</a></li>
-              <li><a href="#">칼바도스</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/liqueur.png" alt="리큐르"</sapn>
-              
-              리큐르</a>
-            <ul class="submenu">
-              <!-- Add more submenu items here -->
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/traditional_soju.png" alt="전통 소주"</sapn>
-              
-              전통 소주</a>
-            <ul class="submenu">
-              <li><a href="#">증류식</a></li>
-              <li><a href="#">희석식</a></li>
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/cheongju.png" alt="청주"</sapn>
-              
-              청주</a>
-            <ul class="submenu">
-              <!-- Add more submenu items here -->
-            </ul>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-          <sapn><img src="images/main/others.png" alt="기타 주류"</sapn>
-              
-              기타 주류</a>
-            <ul class="submenu">
-              <li><a href="#">스피릿</a></li>
-              <li><a href="#">하드 셀처</a></li>
-              <li><a href="#">칵테일</a></li>
-            </ul>
-          </li>
+      <button class="Menu__CloseButton">
+        <i class="Menu__CloseButtonIcon sprite"></i>
+      </button>
+    </header> -->
 
-      <!-- Add more menu items and submenus here -->
-      <li class="menu-item">
-        <a href="#">
-          <sapn><img src="images/main/non_alcohol.png" alt="논알콜"</sapn>
-          
-          논알콜</a>
-        <ul class="submenu">
-          <li><a href="#">맥주</a></li>
-          <li><a href="#">와인</a></li>
-          <li><a href="#">위스키</a></li>
-          <li><a href="#">기타</a></li>
-        </ul>
-      </li>
-    </ul>
+    <!-- <nav class="Menu__Nav">
+      <ul class="Menu__NavList">
+        <li class="Menu__NavItem">
+          <a href="/" class="Menu__NavLink Menu__HomeLink" onclick="trackEvent('CLICK_HOME','','','PG_MENU');">
+            <span class="Menu__NavText">홈</span>
+          </a>
+        </li> -->
+
+        <!-- <li class="Menu__NavItem">
+          <a href="/top_lists" class="Menu__NavLink Menu__TopListLink"
+            onclick="trackEvent('CLICK_TOP_LIST','','','PG_MENU');">
+            <span class="Menu__NavText">지도로 보기</span>
+          </a>
+        </li> -->
+
+        <!-- <li class="Menu__NavItem">
+          <a href="/mango_picks" class="Menu__NavLink Menu__StoryLink"
+            onclick="trackEvent('CLICK_MANGOPICK','','','PG_MENU');">
+            <span class="Menu__NavText">취향 테스트 </span>
+          </a>
+        </li> -->
+
+      </ul>
+    </nav>
   </div>
-  
-  </leftSidebar>
-  
-  </div>
-  <div class="slider-container toplist-slider">
-    <button class="btn-nav prev"></button>
-    <button class="btn-nav next"></button>
 
-    <div class="top_list_slide">
-        <ul class="list-toplist-slider" style="width: 531px;">
-            <li>
-              <img class="center-croping" alt="23년 상반기 베스트 25곳"
-
-                <figure class="ls-item">
-                  <figcaption class="info">
-                    <div class="info_inner_wrap">
-                      <span class="title">23년 상반기 베스트 25곳</span>
-                      <p class="desc">"맛 좋은 술과 분위기는 UP!"</p>
-                    </div>
-                </figure>
-              </a>
-            </li>
-            <li>
-</section>
-
-</main>
-
-<div class="Menu" >
-  <header class="Menu__Header">
-    <a href="/" class="Menu__LogoLink">
-      <i class="Menu__Logo sprite"></i>
+  <header class="Header Header--Transparent" data-page="home">
+    <!-- <a href="/" class="Header__Logo" onclick="trackEvent('CLICK_HEADER_LOGO');"> -->
+    <a href="/" class="Header__Logo">
+      <i class="Header__LogoIcon"></i>
     </a>
 
-    <button class="Menu__CloseButton">
-      <i class="Menu__CloseButtonIcon sprite"></i>
-    </button>
+    <div class="Header__SearchBox">
+      <i class="Header__SearchIcon"></i>
+
+      <label class="Header__SearchInputWrap">
+        <input type="text" class="Header__SearchInput" placeholder="지역, 식당 또는 음식" value="" autocomplete="off"
+          maxlength="50" />
+      </label>
+
+      <button class="Header__SearchInputClearButton">CLEAR</button>
+    </div>
+
+    <ul class="Header__MenuList">
+
+      <li class="Header__MenuItem">
+        <!-- <a href="map.html" class="Header__MenuLink" onclick="trackEvent('CLICK_TOP_LIST')"> -->
+        <a href="map.html" class="Header__MenuLink" >
+          <span class="Header__MenuText">지도로 보기</span>
+        </a>
+      </li>
+
+      <li class="Header__MenuItem">
+        <!-- <a href="questions.html" class="Header__MenuLink" onclick="trackEvent('CLICK_MANGO_PICK')"> -->
+        <a href="questions.html" class="Header__MenuLink">
+          <span class="Header__MenuText">취향 테스트</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- <ul class="Header__IconButtonList">
+      <li class="Header__IconButtonItem only-mobile Header__IconButtonItem--MenuButton">
+        <button class="MenuButton" onclick="trackEvent('CLICK_MENU');">
+          <i class="MenuButton__Icon"></i>
+        </button>
+      </li> -->
+
+      <li class="Header__IconButtonItem Header__IconButtonItem--UserRestaurantHistory">
+        <button class="UserProfileButton" onclick="trackEvent('CLICK_PROFILE');">
+          <i class="UserProfileButton__Picture"></i>
+          <i class="UserProfileButton__PersonIcon"></i>
+          <span class="UserProfileButton__HistoryCount">0</span>
+        </button>
+      </li>
+
+      <!-- <li class="Header__IconButtonItem Header__IconButtonItem--CloseButton Header__IconButtonItem--Hide">
+        <button class="Header__CloseButton"></button> -->
+      </li>
+    </ul>
   </header>
 
-  <nav class="Menu__Nav">
-    <ul class="Menu__NavList">
-      <li class="Menu__NavItem">
-        <a href="/"
-           class="Menu__NavLink Menu__HomeLink"
-           onclick="trackEvent('CLICK_HOME','','','PG_MENU');">
-          <span class="Menu__NavText">홈</span>
-        </a>
-      </li>
-
-      <li class="Menu__NavItem">
-        <a href="/top_lists"
-           class="Menu__NavLink Menu__TopListLink"
-           onclick="trackEvent('CLICK_TOP_LIST','','','PG_MENU');">
-          <span class="Menu__NavText">술집 리스트</span>
-        </a>
-      </li>
-
-      <li class="Menu__NavItem">
-        <a href="/mango_picks"
-           class="Menu__NavLink Menu__StoryLink"
-           onclick="trackEvent('CLICK_MANGOPICK','','','PG_MENU');">
-          <span class="Menu__NavText">취향 테스트 </span>
-        </a>
-      </li>
-
-    </ul>
-  </nav>
-</div>
-
-<header class="Header Header--Transparent" data-page="home">
-  <a href="/"
-     class="Header__Logo"
-     onclick="trackEvent('CLICK_HEADER_LOGO');">
-    <i class="Header__LogoIcon"></i>
-  </a>
-
-  <div class="Header__SearchBox">
-    <i class="Header__SearchIcon"></i>
-
-    <label class="Header__SearchInputWrap">
-      <input type="text" class="Header__SearchInput" placeholder="지역, 식당 또는 음식" value="" autocomplete="off" maxlength="50"/>
-    </label>
-
-    <button class="Header__SearchInputClearButton">CLEAR</button>
-  </div>
-
-  <ul class="Header__MenuList">
-
-    <li class="Header__MenuItem">
-      <a href="map.html"
-         class="Header__MenuLink"
-         onclick="trackEvent('CLICK_TOP_LIST')">
-        <span class="Header__MenuText">지도로 보기</span>
-      </a>
-    </li>
-
-    <li class="Header__MenuItem">
-      <a href="questions.html"
-         class="Header__MenuLink"
-         onclick="trackEvent('CLICK_MANGO_PICK')">
-        <span class="Header__MenuText">취향 테스트</span>
-      </a>
-    </li>
-  </ul>
-
-  <ul class="Header__IconButtonList">
-    <li class="Header__IconButtonItem only-mobile Header__IconButtonItem--MenuButton">
-      <button class="MenuButton"
-              onclick="trackEvent('CLICK_MENU');">
-        <i class="MenuButton__Icon"></i>
-      </button>
-    </li>
-
-    <li class="Header__IconButtonItem Header__IconButtonItem--UserRestaurantHistory">
-      <button class="UserProfileButton"
-              onclick="trackEvent('CLICK_PROFILE');">
-        <i class="UserProfileButton__Picture"></i>
-        <i class="UserProfileButton__PersonIcon"></i>
-        <span class="UserProfileButton__HistoryCount">0</span>
-      </button>
-    </li>
-
-    <li class="Header__IconButtonItem Header__IconButtonItem--CloseButton Header__IconButtonItem--Hide">
-      <button class="Header__CloseButton"></button>
-    </li>
-  </ul>
-</header>
-
-<!-- 하단 영역 -->
-<footer class="footer">
+  <!-- 하단 영역 -->
+  <footer class="footer">
+    <div>부산한잔</div>
     <div class="language-copyrights">
       <p class="select-language">
-        <a href="/" class='selected' >
+        <a href="/" class='selected'>
           한국어
         </a>
 
@@ -406,16 +398,17 @@
           English
         </a>
 
-        <a href="" >
+        <a href="">
           简体中文
         </a>
 
-        <a href="" >
+        <a href="">
           日本語
         </a>
       </p>
     </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
