@@ -5,7 +5,11 @@
     <title>부산한잔</title>
     <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=4a14ac2ec9df8726fc3ad08ca31d1792"></script>
     <script src="./js/map.js" defer></script>
-    <link rel="icon" href="/images/public/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="/images/public/logoicon-cup.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -23,10 +27,11 @@
       <div class="header__search">
         <input
           type="text"
+          id="searchtxt"
           class="searchtxt"
           placeholder="지역, 음식 또는 식당명 입력"
         />
-        <button><i class="fa-solid fa-xmark xmark"></i></button>
+        <button><i id="xmark" class="fa-solid fa-xmark xmark"></i></button>
         <button><i class="fa-solid fa-magnifying-glass searchmark"></i></button>
       </div>
     </header>
@@ -42,7 +47,11 @@
             <div class="list__title"></div>
             <div class="list__category"></div>
             <div class="list__hash"></div>
-            <div class="list__rate"></div>
+            <div class="list__rate">
+              <div class="rate1"></div>
+              <div class="rate2"></div>
+              <div class="rate3"></div>
+            </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,6 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 // 지도를 생성한다
 var map = new kakao.maps.Map(mapContainer, mapOption);
 
-// prettier-ignore
 var mapData = [
   // 0, 1: 지도 좌표
   // 2: 번호  3: 가게 명  4: 위치
@@ -69,7 +68,7 @@ var mapData = [
     '#맛있는안주, #포장',
     '역전할머니맥주_구서.jpeg',
     15,
-    '0,0',
+    '0.0',
     0,
     0,
   ],
@@ -83,9 +82,37 @@ var mapData = [
     '#몸보신, #소주, #칸막이',
     '옥수관_구서.jpeg',
     42,
-    '4,7',
+    '4.7',
     3,
     5,
+  ],
+  [
+    35.24403232635263,
+    129.08947202189066,
+    '6',
+    '해리의 집',
+    '구서',
+    '삼겹살, 더덕삼겹살',
+    '#소주, #아늑한',
+    '해리의집_구서.jpeg',
+    15,
+    '0.0',
+    0,
+    0,
+  ],
+  [
+    35.244758159203506,
+    129.0885349825838,
+    '7',
+    '마파람해물찜해물탕',
+    '구서',
+    '해물찜, 해물탕',
+    '#식사모임, #무료주차, #배달, #깔끔한',
+    '마파람해물찜해물탕_구서.jpeg',
+    44,
+    '4.4',
+    3,
+    6,
   ],
 ];
 
@@ -145,7 +172,20 @@ for (let i = 0; i < mapData.length; i++) {
   listHash.innerHTML = mapData[i][6];
   const listRate = document.createElement('div');
   listRate.className = 'list__rate';
-  listRate.innerText = `${mapData[i][8]}점 | ${mapData[i][9]} (${mapData[i][10]}명) | ${mapData[i][11]}`;
+
+  const rate1 = document.createElement('div');
+  rate1.className = 'rate1';
+  rate1.innerHTML = `${mapData[i][8]}<span>점</span>`;
+  const rate2 = document.createElement('div');
+  rate2.className = 'rate2';
+  rate2.innerText = `${mapData[i][9]} (${mapData[i][10]}명)`;
+  const rate3 = document.createElement('div');
+  rate3.className = 'rate3';
+  rate3.innerText = `${mapData[i][11]}`;
+  listRate.appendChild(rate1);
+  listRate.appendChild(rate2);
+  listRate.appendChild(rate3);
+
   listInfo.appendChild(listTitle);
   listInfo.appendChild(listCategory);
   listInfo.appendChild(listHash);
@@ -171,3 +211,11 @@ for (let i = 0; i < mapData.length; i++) {
     });
   }
 }
+
+// --------------- search ---------------
+const xMark = document.getElementById('xmark');
+const searchTxt = document.getElementById('searchtxt');
+
+xMark.addEventListener('click', () => {
+  searchTxt.value = '';
+});

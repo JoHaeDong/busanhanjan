@@ -76,6 +76,10 @@
   right: 63px;
 }
 
+.header__search .xmark:hover {
+  cursor: pointer;
+}
+
 .header__search .searchmark {
   width: 22px;
   height: 22px;
@@ -84,6 +88,10 @@
   position: absolute;
   top: 10px;
   right: 20px;
+}
+
+.header__search .searchmark:hover {
+  cursor: pointer;
 }
 
 /*************** list ***************/
@@ -95,6 +103,13 @@
   box-sizing: border-box;
   padding-top: 75px;
   float: left;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+#list::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
 
 .list__box {
@@ -149,7 +164,47 @@
 }
 
 .list__box .list__content .list__info .list__rate {
+  display: flex;
   font-size: 15px;
+}
+
+.list__box .list__content .list__info .list__rate div {
+  border-right: 2px solid #eaeaea;
+  line-height: 12px;
+  padding: 0 10px;
+}
+
+.list__box .list__content .list__info .list__rate div:first-child {
+  padding-left: 0;
+}
+
+.list__box .list__content .list__info .list__rate div:last-child {
+  border-right: 0;
+}
+
+.list__box .list__content .list__info .list__rate .rate1 {
+  font-weight: bold;
+  color: #00cbcb;
+}
+
+.list__box .list__content .list__info .list__rate .rate2 {
+  background-image: url(../images/public/icon_star.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 13px;
+  font-weight: bold;
+  margin-left: 8px;
+  padding-left: 17px;
+}
+
+.list__box .list__content .list__info .list__rate .rate3 {
+  background-image: url(../images/public/icon_heart.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 13px;
+  font-weight: bold;
+  margin-left: 8px;
+  padding-left: 20px;
 }
 
 /*************** marker ***************/
