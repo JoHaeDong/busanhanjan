@@ -33,14 +33,12 @@ body {
 }
 .question-box .number {
   margin-bottom: 30px;
-  font-weight: 900;
   font-size: 60px;
   text-align: center;
   color: #00CBCB;
 }
 .question-box .question {
   margin-bottom: 40px;
-  font-weight: 700;
   font-size: 30px;
   line-height: 1.5;
   text-align: center;

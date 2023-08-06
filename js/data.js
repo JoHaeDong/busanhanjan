@@ -3,7 +3,7 @@ export const questions = [
     number: '01',
     question: '나는 쉬는 시간에.... ',
     choices: [
-      { text: '혼자서 술마시는개 꿀잼<br>', value: 'i' },
+      { text: '혼자서 술마시는게 꿀잼<br>', value: 'i' },
       { text: '친구들 불러서 왁자지껄 하게 놀기', value: 'e' }
     ]
   },
@@ -44,52 +44,53 @@ export const questions = [
 export const results = [
   {
     title: '술 마실 날은<br>내가 정해!',
-    character: 'images/img2.jpg',
+    character: 'images/game/img2.jpg',
     results: [
       '혼자서도 잘해요!',
       '무엇이든 잘하고 싶어요.<br>일중독 취미중독 여행중독!',
       '자유로운 술 분위기가 좋아요!<br>하지만 약속이 있으면 약속을 지켜요',
       '리더십 있다는 소리를 자주 들어요.<br>메뉴고르는데 거침없죠'
     ],
-   
-    lectureUrl: ''
+   // 맥주
+    recs: ['라거', '위트에일']
   },
   {
     title: '술마시러 가자!!<br>추진력 업',
-    character: 'images/img4.jpg',
+    character: 'images/game/img4.jpg',
     results: [
       '친구들의 멘탈 지킴이!<br>두루두루 친한 파워 인싸!',
       '술게임 술자리 이야기!<br>분위기 업!',
       '이벤트들은 빠질수 없죠', 
       '여러명이서 다양하게 마시는게 좋아요'
-    ],
+    ],// 동동주
 
-    lectureUrl: ''
+    recs: ['동동주', '막걸리']
   },
   {
     title: '우리는 <br>낭만파!',
-    character: './images/img5.jpg',
+    character: 'images/game/img5.jpg',
     results: [
       '다양한 주제에 관심이 많아요.<br>모든 게 궁금해요!',
       '가끔 거절을 못해서 약속이 잡힐때가 있지만..!<br>괜찮아요~',
       '평소에 바쁘면 예민할때도 있지만,<br>술자리서 털어버리죠!',
       '맛있는 안주, 감성 주점도 좋아요'
-    ],
-   
-    lectureUrl: ''
+    ], // 소주
+    recs: ['처음처럼', '참이슬']
+    
   },
   {
     title: '술자리<br>토크!',
-    character: 'images/img2.jpg',
+    character: 'images/game/img2.jpg',
     results: [
       '다양한 주제에 관심이 많아요!',
       '술자리에서 진지한 이야기를 하면 즐거워요.',
       '꿈이 커요!<br>언젠간 집에 친구들을 초대해서 성대하게 놀꺼에요~',
+      '누구랑 마시느냐가 중요해요 '
       
-    ],
+    ], // 와인
    
-    lectureUrl: ''
-  },
+    recs: ['레드 와인', '화이트 와인']
+  }
   
 ]
 export const mbtis = {
