@@ -207,8 +207,6 @@ for (let i = 0; i < mapData.length; i++) {
 
     marker.addEventListener('click', (event) => {
       if (i === j) {
-        event.currentTarget.parentNode.style.zIndex = '100';
-
         markerBar[i].style.backgroundColor = 'rgb(255, 93, 75)';
         markerPoint[i].style.backgroundColor = 'rgb(255, 93, 75)';
         markerContainer[i].style.border = '1px solid rgb(255, 93, 75)';
@@ -222,6 +220,14 @@ for (let i = 0; i < mapData.length; i++) {
 
         listBox.style.backgroundColor = '';
       }
+    });
+
+    marker.addEventListener('mouseover', (event) => {
+      event.currentTarget.parentNode.style.zIndex = '100';
+    });
+
+    marker.addEventListener('mouseleave', (event) => {
+      event.currentTarget.parentNode.style.zIndex = '1';
     });
   }
 }
