@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+
+
+body {
+  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+  word-break: keep-all;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.header {
+  width: 100%;
+  height: 74px;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.header__title {
+  width: 450px;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 42px;
+  line-height: 74px;
+  color: #00cbcb;
+  padding: 5px 24px 0px 14px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.header__title i {
+  font-size: 40px;
+  color: #00cbcb;
+}
+
+.card_rest_name {
+    font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+    font-size:14pt;
+}
+
 .Content {
     align-items: center; 
     background-color:#f0f0f0; 
@@ -8,7 +50,7 @@ a, article, button, div, footer, h1, h2, h3, h4, h5, header, hr, img, input, li,
     padding: 0;
 }
 * {
-    font-family: "Noto Sans KR", -apple-system, Roboto, "Open Sans", sans-serif;
+    font-family:"Black Han Sans","Pretendard Variable", sans-serif;
     font-style: normal;
 }
 *, body, html {
@@ -16,14 +58,16 @@ a, article, button, div, footer, h1, h2, h3, h4, h5, header, hr, img, input, li,
     padding: 0;
 }
 * {
-    box-sizing: border-box;
-    font-family: Noto Sans KR,sans-serif;
+    /* box-sizing: border-box; */
+    font-family:  "Black Han Sans","Pretendard Variable", sans-serif;
     font-style: normal;
-    letter-spacing: -.0437rem;
+    /* letter-spacing: -.0437rem; */
     outline: none;
 }
 div {
     display: block;
+
+    
 }
 .Content{
     display: flex;
@@ -38,7 +82,8 @@ div {
     z-index: 2;
 }
 .BodyBox {
-    
+    top:100px;
+    bottom: 100px;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
@@ -82,17 +127,16 @@ div {
     background-color: rgb(250, 250, 250);
 }
 .Box .Card_title {
-    
     display: flex;
-    -webkit-box-align: center;
+    /* -webkit-box-align: center; */
     align-items: center;
     width: 100%;
     min-height: 33px;
     white-space: nowrap;
-    font-size: 1.375rem;
-    font-weight: bold;
-    letter-spacing: -0.0688rem;
+    font-size: 20pt;
     color: rgb(32, 32, 32);
+    font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+    
 }
 .Box .Card_Cnt {
     position: relative;
@@ -140,14 +184,13 @@ div {
     background-color: rgb(80, 80, 80);
 }
 .sc_List {
-   
     position: relative;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     gap: 18px;
     width: 1070px;
-    height: 276px;
+    height: 400px;
     padding-left: 32px;
     padding-right: 32px;
     transition-duration: 250ms;
@@ -158,9 +201,9 @@ div {
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
-    gap: 14px;
+    gap: 18px;
     width: 238px;
-    height: 276px;
+    height: 300px;
 }
 .sc_rest_card_box {
     position: relative;
@@ -202,7 +245,7 @@ img {
 .sc_List .caption {
     position:absolute;
     top:238px;
-    width:238px;
+    width:230px;
     height:200px; 
     padding-top:20px;
     background: rgba(0,0,0,0.6);
@@ -225,4 +268,8 @@ img {
 .sc_List .caption h2, .sc_List .caption p{
     color:#fff;
     text-align:center;
+}
+
+.caption{
+    font-family:"Black Han Sans","Pretendard Variable", sans-serif;
 }

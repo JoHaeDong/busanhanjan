@@ -6,6 +6,10 @@
   color: #202020;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*************** header ***************/
 .header {
   width: 100%;
