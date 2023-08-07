@@ -130,7 +130,7 @@ a {
 /*고향춘*/
 .rhgidcns {
   width: 500px;
-  height: 290px;
+  height: 320px;
   position: relative;
   left: 200px;
   margin-top: 50px;
@@ -148,7 +148,7 @@ ul.rhgidchs1 li {
 }
 li.rhgidchs2 {
   position: relative;
-  top: 0px;
+  top: -20px;
   left: -550px;
   font-size: xx-large;
 }
@@ -738,4 +738,12 @@ li.qnrgksrkd2 {
   position: relative;
   top: 0px;
   font-size: xx-large;
+}
+/*위로가기*/
+.scroll-to-top {
+  font-size: xx-large;
+  position: relative;
+  left: 750px;
+  bottom: -1250px;
+  border: 2px solid black;
 }
