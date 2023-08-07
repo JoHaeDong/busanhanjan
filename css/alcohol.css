@@ -13,7 +13,58 @@ li {
   color: #00cbcb;
   padding: 5px 24px 0px 14px;
   box-sizing: border-box;
-  margin-bottom: 30px;
+  display: inline;
+}
+.home {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*술이야기*/
+.tnfdldirl {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*취향테스트*/
+.cnlgid {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1120px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*지도보기*/
+.wlehqhrl {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1250px;
+  padding: 10px 20px;
+  font-weight: 900;
 }
 /*탁주*/
 .xkrwn {
