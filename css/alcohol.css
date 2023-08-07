@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 
-
-
 /* body {
   font-family: "Black Han Sans","Pretendard Variable", sans-serif;
   word-break: keep-all;
   padding-top: 80px;
   padding-bottom: 80px;
 } */
+
+a {
+  color: black;
+}
+
 section{
   padding-top: 100pt;
   font-family: "Black Han Sans","Pretendard Variable", sans-serif;
 }
-
 
 .header {
   width: 500pt;
