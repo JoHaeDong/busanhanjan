@@ -50,7 +50,7 @@ section{
 }
 li {
   display: inline;
-  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+  /
 }
 a {
   text-decoration: none;
