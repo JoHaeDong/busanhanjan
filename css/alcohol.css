@@ -5,6 +5,9 @@
 li {
   display: inline;
 }
+a {
+  text-decoration: none;
+}
 .wjscp {
   width: 450px;
   font-family: "Black Han Sans", sans-serif;
@@ -18,7 +21,6 @@ li {
 .home {
   font-size: x-large;
   line-height: inherit;
-  text-decoration: none;
   display: block;
   text-align: left;
   position: absolute;
@@ -31,7 +33,6 @@ li {
 .tnfdldirl {
   font-size: x-large;
   line-height: inherit;
-  text-decoration: none;
   display: block;
   text-align: left;
   position: absolute;
@@ -44,7 +45,6 @@ li {
 .cnlgid {
   font-size: x-large;
   line-height: inherit;
-  text-decoration: none;
   display: block;
   text-align: left;
   position: absolute;
@@ -57,7 +57,6 @@ li {
 .wlehqhrl {
   font-size: x-large;
   line-height: inherit;
-  text-decoration: none;
   display: block;
   text-align: left;
   position: absolute;
@@ -76,6 +75,7 @@ li {
   top: 80px;
   left: 500px;
   margin-top: 30px;
+  text-decoration: none;
 }
 /*약주,청주*/
 .dirwn {
@@ -87,6 +87,7 @@ li {
   top: 80px;
   left: 600px;
   margin-top: 30px;
+  text-decoration: none;
 }
 /*과실주*/
 .rhktlfwn {
@@ -98,6 +99,7 @@ li {
   top: 80px;
   left: 750px;
   margin-top: 30px;
+  text-decoration: none;
 }
 /*증류주*/
 .wmdfbwn {
@@ -109,6 +111,7 @@ li {
   top: 80px;
   left: 850px;
   margin-top: 30px;
+  text-decoration: none;
 }
 /*라큐트/기타주류*/
 .flzbfm {
@@ -120,6 +123,7 @@ li {
   top: 80px;
   left: 950px;
   margin-top: 30px;
+  text-decoration: none;
 }
 /*<탁주>============================================================*/
 
