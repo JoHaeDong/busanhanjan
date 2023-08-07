@@ -1,9 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+
+
+/* body {
+  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+  word-break: keep-all;
+  padding-top: 80px;
+  padding-bottom: 80px;
+} */
+section{
+  padding-top: 100pt;
+  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+}
+
+
+.header {
+  width: 500pt;
+  height: 74px;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  overflow: hidden;
+  
+}
+
+.header__title {
+  width: 450px;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 42px;
+  line-height: 74px;
+  color: #00cbcb;
+  padding: 5px 24px 0px 14px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.header__title i {
+  font-size: 40px;
+  color: #00cbcb;
+}
+
+
+
 .hr {
   position: relative;
   top: 30px;
 }
 li {
   display: inline;
+  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
 }
 a {
   text-decoration: none;
