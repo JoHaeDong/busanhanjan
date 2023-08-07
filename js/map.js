@@ -200,14 +200,34 @@ for (let i = 0; i < mapData.length; i++) {
 for (let i = 0; i < mapData.length; i++) {
   for (let j = 0; j < mapData.length; j++) {
     let marker = document.getElementById(`marker${i}`);
+    let markerBar = document.getElementsByClassName('marker__bar');
+    let markerPoint = document.getElementsByClassName('marker__point');
+    let markerContainer = document.getElementsByClassName('marker__container');
     let listBox = document.getElementById(`list__box${j}`);
 
-    marker.addEventListener('click', () => {
+    marker.addEventListener('click', (event) => {
       if (i === j) {
+        markerBar[i].style.backgroundColor = 'rgb(255, 93, 75)';
+        markerPoint[i].style.backgroundColor = 'rgb(255, 93, 75)';
+        markerContainer[i].style.border = '1px solid rgb(255, 93, 75)';
+
         listBox.style.backgroundColor = '#f5f5f5';
+        listBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
       } else {
+        markerBar[j].style.backgroundColor = 'rgb(36, 95, 198)';
+        markerPoint[j].style.backgroundColor = 'rgb(36, 95, 198)';
+        markerContainer[j].style.border = '1px solid rgb(14, 61, 144)';
+
         listBox.style.backgroundColor = '';
       }
+    });
+
+    marker.addEventListener('mouseover', (event) => {
+      event.currentTarget.parentNode.style.zIndex = '100';
+    });
+
+    marker.addEventListener('mouseleave', (event) => {
+      event.currentTarget.parentNode.style.zIndex = '1';
     });
   }
 }

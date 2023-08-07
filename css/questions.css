@@ -1,8 +1,13 @@
 body {
-   background-image: url("../images/questions_bg.jpg"); 
+  background-image: url("../images/questions_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
+
+a {
+  text-decoration: none;
+}
+
 .progress {
   max-width: 500px;
   height: 20px;
@@ -10,12 +15,12 @@ body {
   margin-right: auto;
   margin-bottom: 60px;
   border-radius: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .progress .value {
   width: 10%;
   height: 20px;
-  background-color: #FFB103;
+  background-color: #ffb103;
   border-radius: 10px;
   transition: 0.2s;
 }
@@ -28,14 +33,14 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 20px;
-  box-shadow: 0 4px 25px #DDE2E8;
-  background-color: #FFFFFF;
+  box-shadow: 0 4px 25px #dde2e8;
+  background-color: #ffffff;
 }
 .question-box .number {
   margin-bottom: 30px;
   font-size: 60px;
   text-align: center;
-  color: #00CBCB;
+  color: #00cbcb;
 }
 .question-box .question {
   margin-bottom: 40px;

@@ -1,12 +1,14 @@
-
-
-
 body {
-  background-color: #F6FCFF;
- 
+  background-color: #f6fcff;
   background-position: top center;
   background-repeat: no-repeat;
+  padding-top: 110px;
 }
+
+a {
+  text-decoration: none;
+}
+
 .header {
   width: 100%;
   height: 74px;

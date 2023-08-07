@@ -1,9 +1,70 @@
-.wjscp {
-  font-size: x-large;
-  padding: 20px;
-  margin-bottom: 80px;
+.hr {
   position: relative;
-  text-align: center;
+  top: 30px;
+}
+li {
+  display: inline;
+}
+.wjscp {
+  width: 450px;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 42px;
+  line-height: 74px;
+  color: #00cbcb;
+  padding: 5px 24px 0px 14px;
+  box-sizing: border-box;
+  display: inline;
+}
+.home {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*술이야기*/
+.tnfdldirl {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*취향테스트*/
+.cnlgid {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1120px;
+  padding: 10px 20px;
+  font-weight: 900;
+}
+/*지도보기*/
+.wlehqhrl {
+  font-size: x-large;
+  line-height: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 1250px;
+  padding: 10px 20px;
+  font-weight: 900;
 }
 /*탁주*/
 .xkrwn {
@@ -14,6 +75,7 @@
   position: absolute;
   top: 80px;
   left: 500px;
+  margin-top: 30px;
 }
 /*약주,청주*/
 .dirwn {
@@ -24,6 +86,7 @@
   position: absolute;
   top: 80px;
   left: 600px;
+  margin-top: 30px;
 }
 /*과실주*/
 .rhktlfwn {
@@ -34,6 +97,7 @@
   position: absolute;
   top: 80px;
   left: 750px;
+  margin-top: 30px;
 }
 /*증류주*/
 .wmdfbwn {
@@ -44,6 +108,7 @@
   position: absolute;
   top: 80px;
   left: 850px;
+  margin-top: 30px;
 }
 /*라큐트/기타주류*/
 .flzbfm {
@@ -54,10 +119,11 @@
   position: absolute;
   top: 80px;
   left: 950px;
+  margin-top: 30px;
 }
 /*<탁주>============================================================*/
 
-/*공향춘*/
+/*고향춘*/
 .rhgidcns {
   width: 500px;
   height: 290px;
@@ -70,7 +136,7 @@ ul.rhgidchs1 {
   font-size: medium;
   position: relative;
   left: 780px;
-  bottom: 250px;
+  bottom: 270px;
   display: inline;
 }
 ul.rhgidchs1 li {
@@ -78,7 +144,8 @@ ul.rhgidchs1 li {
 }
 li.rhgidchs2 {
   position: relative;
-  top: -50px;
+  top: 0px;
+  left: -550px;
   font-size: xx-large;
 }
 
@@ -96,14 +163,14 @@ ul.rnddPdmlsnsanf1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: 80px;
+  bottom: 170px;
 }
 ul.rnddPdmlsnsanf1 li {
   line-height: 50px;
 }
 li.rnddPdmlsnsanf2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 
@@ -121,14 +188,14 @@ ul.Tkfdmsekfek1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -50px;
+  bottom: 100px;
 }
 ul.Tkfdmsekfek1 li {
-  line-height: 50px;
+  line-height: 30px;
 }
 li.Tkfdmsekfek2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*소성주*/
@@ -145,20 +212,20 @@ ul.thtjdwn1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -150px;
+  bottom: -20px;
 }
 ul.thtjdwn1 li {
-  line-height: 50px;
+  line-height: 30px;
 }
 li.thtjdwn2 {
   position: relative;
-  top: -50px;
+  top: -30px;
   font-size: xx-large;
 }
 /*삼해주*/
 .tkagown {
   width: 500px;
-  height: 290px;
+  height: 300px;
   position: absolute;
   left: 200px;
   top: 1800px;
@@ -169,14 +236,14 @@ ul.tkagown1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -270px;
+  bottom: -110px;
 }
 ul.tkagown1 li {
-  line-height: 50px;
+  line-height: 30px;
 }
 li.tkagown2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 
@@ -185,7 +252,7 @@ li.tkagown2 {
 /*홍매반개주*/
 .qksrown {
   width: 500px;
-  height: 290px;
+  height: 330px;
   position: absolute;
   left: 200px;
   top: 2200px;
@@ -196,14 +263,14 @@ ul.qksrown1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -350px;
+  bottom: -180px;
 }
 ul.qksrown1 li {
   line-height: 50px;
 }
 li.qksrown2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*산정호수*/
@@ -220,14 +287,14 @@ ul.tkswjdghwn1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -500px;
+  bottom: -250px;
 }
 ul.tkswjdghwn1 li {
   line-height: 50px;
 }
 li.tkswjdghwn2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*보령주*/
@@ -244,14 +311,14 @@ ul.qhfudwn1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -620px;
+  bottom: -320px;
 }
 ul.qhfudwn1 li {
   line-height: 50px;
 }
 li.qhfudwn2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*대담1호약주*/
@@ -268,14 +335,14 @@ ul.eoeka1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -750px;
+  bottom: -390px;
 }
 ul.eoeka1 li {
   line-height: 50px;
 }
 li.eoeka2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*화전일취*/
@@ -292,14 +359,14 @@ ul.ghkwjsdlfcnl1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -900px;
+  bottom: -460px;
 }
 ul.ghkwjsdlfcnl1 li {
-  line-height: 50px;
+  line-height: 40px;
 }
 li.ghkwjsdlfcnl2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*<과실주>===========================================================*/
@@ -318,14 +385,14 @@ ul.cntl1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1050px;
+  bottom: -520px;
 }
 ul.cntl1 li {
   line-height: 50px;
 }
 li.cntl2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*복숭아와인*/
@@ -342,14 +409,14 @@ ul.qhrtnddk1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1150px;
+  bottom: -590px;
 }
 ul.qhrtnddk1 li {
   line-height: 50px;
 }
 li.qhrtnddk2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*애플린*/
@@ -366,20 +433,20 @@ ul.dovnffls1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1300px;
+  bottom: -660px;
 }
 ul.dovnffls1 li {
   line-height: 50px;
 }
 li.dovnffls2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*딸기와인*/
 .Ekfrldhkdls {
   width: 500px;
-  height: 320px;
+  height: 420px;
   position: absolute;
   left: 200px;
   top: 5400px;
@@ -390,20 +457,20 @@ ul.Ekfrldhkdls1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1450px;
+  bottom: -710px;
 }
 ul.Ekfrldhkdls1 li {
-  line-height: 50px;
+  line-height: 80px;
 }
 li.Ekfrldhkdls2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*애플블랑*/
 .dovmf {
   width: 500px;
-  height: 320px;
+  height: 420px;
   position: absolute;
   left: 200px;
   top: 5900px;
@@ -414,14 +481,14 @@ ul.dovmf1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1700px;
+  bottom: -740px;
 }
 ul.dovmf1 li {
-  line-height: 50px;
+  line-height: 80px;
 }
 li.dovmf2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*<증류주>============================================================*/
@@ -440,20 +507,20 @@ ul.didchs1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -1900px;
+  bottom: -770px;
 }
 ul.didchs1 li {
-  line-height: 50px;
+  line-height: 55px;
 }
 li.didchs2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*두레앙목통주*/
 .enfpdkd {
   width: 500px;
-  height: 290px;
+  height: 320px;
   position: absolute;
   left: 200px;
   top: 6900px;
@@ -464,14 +531,14 @@ ul.enfpdkd1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2050px;
+  bottom: -850px;
 }
 ul.enfpdkd1 li {
-  line-height: 50px;
+  line-height: 35px;
 }
 li.enfpdkd2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*산정호수*/
@@ -488,14 +555,14 @@ ul.thfdlv1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2130px;
+  bottom: -890px;
 }
 ul.thfdlv1 li {
   line-height: 50px;
 }
 li.thfdlv2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*감귤주*/
@@ -512,20 +579,20 @@ ul.wpwn1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2280px;
+  bottom: -960px;
 }
 ul.wpwn1 li {
   line-height: 50px;
 }
 li.wpwn2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*도원결의*/
 .ehdnjs {
   width: 500px;
-  height: 290px;
+  height: 320px;
   position: absolute;
   left: 200px;
   top: 8100px;
@@ -536,14 +603,14 @@ ul.ehdnjs1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2400px;
+  bottom: -1020px;
 }
 ul.ehdnjs1 li {
-  line-height: 50px;
+  line-height: 45px;
 }
 li.ehdnjs2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*<리큐르/기타주류>===========================================================*/
@@ -551,7 +618,7 @@ li.ehdnjs2 {
 /*블링블링_바다별*/
 .qmffld {
   width: 500px;
-  height: 290px;
+  height: 330px;
   position: absolute;
   left: 200px;
   top: 8500px;
@@ -562,20 +629,20 @@ ul.qmffld1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2550px;
+  bottom: -1060px;
 }
 ul.qmffld1 li {
-  line-height: 50px;
+  line-height: 45px;
 }
 li.qmffld2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*진도_홍주_진_15호*/
 .wlseh {
   width: 500px;
-  height: 290px;
+  height: 320px;
   position: absolute;
   left: 200px;
   top: 8900px;
@@ -586,20 +653,20 @@ ul.wlseh1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2670px;
+  bottom: -1100px;
 }
 ul.wlseh1 li {
-  line-height: 50px;
+  line-height: 43px;
 }
 li.wlseh2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*고도리술*/
 .rhehfl {
   width: 500px;
-  height: 290px;
+  height: 340px;
   position: absolute;
   left: 200px;
   top: 9300px;
@@ -610,20 +677,20 @@ ul.rhehfl1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2800px;
+  bottom: -1140px;
 }
 ul.rhehfl1 li {
-  line-height: 50px;
+  line-height: 47px;
 }
 li.rhehfl2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*이강주*/
 .dlrkdwn {
   width: 500px;
-  height: 290px;
+  height: 350px;
   position: absolute;
   left: 200px;
   top: 9700px;
@@ -634,20 +701,20 @@ ul.dlrkdwn1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -2950px;
+  bottom: -1160px;
 }
 ul.dlrkdwn1 li {
   line-height: 50px;
 }
 li.dlrkdwn2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
 /*북한강*/
 .qnrgksrkd {
   width: 500px;
-  height: 290px;
+  height: 380px;
   position: absolute;
   left: 200px;
   top: 10100px;
@@ -658,13 +725,13 @@ ul.qnrgksrkd1 {
   font-size: medium;
   position: relative;
   left: 750px;
-  bottom: -3080px;
+  bottom: -1180px;
 }
 ul.qnrgksrkd1 li {
   line-height: 50px;
 }
 li.qnrgksrkd2 {
   position: relative;
-  top: -50px;
+  top: 0px;
   font-size: xx-large;
 }
