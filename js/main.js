@@ -4,9 +4,9 @@ function submitSearch() {
       return; // 검색어가 빈 칸이면 작동 취소
   }
 
-  var searchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchInput);
+var searchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchInput);
   window.location.href = searchUrl;
-}
+}  
 
 // Enter 키를 누를 때 submit 버튼 동작과 같도록 처리
 document.getElementById("url-b824").addEventListener("keydown", function (event) {
