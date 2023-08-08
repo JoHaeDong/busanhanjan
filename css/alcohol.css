@@ -1,31 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 
-/* body {
-  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
-  word-break: keep-all;
-  padding-top: 80px;
-  padding-bottom: 80px;
-} */
+* {
+  font-family: "Black Han Sans", "Pretendard Variable", sans-serif;
+  margin: 0;
+}
 
 a {
   color: black;
+  text-decoration: none;
 }
 
-section{
-  padding-top: 100pt;
-  font-family: "Black Han Sans","Pretendard Variable", sans-serif;
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  padding-top: 100px;
+  font-family: "Black Han Sans", "Pretendard Variable", sans-serif;
 }
 
 .header {
-  width: 500pt;
+  width: 100%;
   height: 74px;
   background-color: #fff;
   border-bottom: 2px solid #eaeaea;
   position: fixed;
   top: 0;
   z-index: 99999;
-  overflow: hidden;
-  
 }
 
 .header__title {
@@ -44,747 +47,92 @@ section{
   color: #00cbcb;
 }
 
-
-
-.hr {
-  position: relative;
-  top: 30px;
-}
-li {
-  display: inline;
-  /
-}
-a {
-  text-decoration: none;
-}
-.wjscp {
-  width: 450px;
-  font-family: "Black Han Sans", sans-serif;
-  font-size: 42px;
+/* nav */
+.nav {
+  display: flex;
+  justify-content: right;
+  font-size: x-large;
+  font-weight: 900;
   line-height: 74px;
+  float: right;
+  margin-right: 80px;
+}
+
+.nav > div {
+  padding-left: 50px;
+}
+
+.nav .nowpage a {
   color: #00cbcb;
-  padding: 5px 24px 0px 14px;
+}
+
+/* category */
+.category {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 50px;
+}
+
+.category > div {
+  font-size: x-large;
+  padding: 20px;
+}
+
+/* wrap */
+.wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.wrap > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.alcohol_img {
+  width: 376px;
+  height: 290px;
+}
+
+.alcohol_img > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
   box-sizing: border-box;
-  display: inline;
-}
-.home {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 900px;
-  padding: 10px 20px;
-  font-weight: 900;
-}
-/*술이야기*/
-.tnfdldirl {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1000px;
-  padding: 10px 20px;
-  font-weight: 900;
-}
-/*취향테스트*/
-.cnlgid {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1120px;
-  padding: 10px 20px;
-  font-weight: 900;
-}
-/*지도보기*/
-.wlehqhrl {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1250px;
-  padding: 10px 20px;
-  font-weight: 900;
-}
-/*탁주*/
-.xkrwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 500px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*약주,청주*/
-.dirwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 600px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*과실주*/
-.rhktlfwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 750px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*증류주*/
-.wmdfbwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 850px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*라큐트/기타주류*/
-.flzbfm {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 950px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*<탁주>============================================================*/
-
-/*고향춘*/
-.rhgidcns {
-  width: 500px;
-  height: 290px;
-  position: relative;
-  left: 200px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.rhgidchs1 {
-  font-size: medium;
-  position: relative;
-  left: 780px;
-  bottom: 270px;
-  display: inline;
-}
-ul.rhgidchs1 li {
-  line-height: 50px;
-}
-li.rhgidchs2 {
-  position: relative;
-  top: 0px;
-  left: -550px;
-  font-size: xx-large;
 }
 
-/*궁예의눈물*/
-.rnddPdmlsnsanf {
-  width: 500px;
+.alcohol_txt {
+  width: 100%;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 600px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.rnddPdmlsnsanf1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: 170px;
-}
-ul.rnddPdmlsnsanf1 li {
-  line-height: 50px;
-}
-li.rnddPdmlsnsanf2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+  margin-left: 20px;
 }
 
-/*쌀은원래달다*/
-.Tkfdmsekfek {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 1000px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.Tkfdmsekfek1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: 100px;
-}
-ul.Tkfdmsekfek1 li {
-  line-height: 30px;
-}
-li.Tkfdmsekfek2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*소성주*/
-.thtjdwn {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 1400px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.thtjdwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -20px;
-}
-ul.thtjdwn1 li {
-  line-height: 30px;
-}
-li.thtjdwn2 {
-  position: relative;
-  top: -30px;
-  font-size: xx-large;
-}
-/*삼해주*/
-.tkagown {
-  width: 500px;
-  height: 300px;
-  position: absolute;
-  left: 200px;
-  top: 1800px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.tkagown1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -110px;
-}
-ul.tkagown1 li {
-  line-height: 30px;
-}
-li.tkagown2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+.alcohol_txt .alcohol_title {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
 
-/*<약주,청주>===========================================================*/
+.alcohol_txt .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
 
-/*홍매반개주*/
-.qksrown {
-  width: 500px;
-  height: 330px;
-  position: absolute;
-  left: 200px;
-  top: 2200px;
-  margin-top: 50px;
-  border: 2px solid black;
+.alcohol_txt .alcohol_info li {
+  margin-bottom: 15px;
 }
-ul.qksrown1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -180px;
-}
-ul.qksrown1 li {
-  line-height: 50px;
-}
-li.qksrown2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*산정호수*/
-.tkswjdghwn {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 2600px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.tkswjdghwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -250px;
-}
-ul.tkswjdghwn1 li {
-  line-height: 50px;
-}
-li.tkswjdghwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*보령주*/
-.qhfudwn {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3000px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.qhfudwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -320px;
-}
-ul.qhfudwn1 li {
-  line-height: 50px;
-}
-li.qhfudwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*대담1호약주*/
-.eoeka {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3400px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.eoeka1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -390px;
-}
-ul.eoeka1 li {
-  line-height: 50px;
-}
-li.eoeka2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*화전일취*/
-.ghkwjsdlfcnl {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3800px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.ghkwjsdlfcnl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -460px;
-}
-ul.ghkwjsdlfcnl1 li {
-  line-height: 40px;
-}
-li.ghkwjsdlfcnl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<과실주>===========================================================*/
 
-/*추시감와인*/
-.cntl {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 4200px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.cntl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -520px;
-}
-ul.cntl1 li {
-  line-height: 50px;
-}
-li.cntl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*복숭아와인*/
-.qhrtnddk {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 4600px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.qhrtnddk1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -590px;
-}
-ul.qhrtnddk1 li {
-  line-height: 50px;
-}
-li.qhrtnddk2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*애플린*/
-.dovnffls {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 5000px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.dovnffls1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -660px;
-}
-ul.dovnffls1 li {
-  line-height: 50px;
-}
-li.dovnffls2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*딸기와인*/
-.Ekfrldhkdls {
-  width: 500px;
-  height: 420px;
-  position: absolute;
-  left: 200px;
-  top: 5400px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.Ekfrldhkdls1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -710px;
-}
-ul.Ekfrldhkdls1 li {
-  line-height: 80px;
-}
-li.Ekfrldhkdls2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*애플블랑*/
-.dovmf {
-  width: 500px;
-  height: 420px;
-  position: absolute;
-  left: 200px;
-  top: 5900px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.dovmf1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -740px;
-}
-ul.dovmf1 li {
-  line-height: 80px;
-}
-li.dovmf2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<증류주>============================================================*/
-
-/*양촌감보드카*/
-.didchs {
-  width: 500px;
-  height: 390px;
-  position: absolute;
-  left: 200px;
-  top: 6400px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.didchs1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -770px;
-}
-ul.didchs1 li {
-  line-height: 55px;
-}
-li.didchs2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*두레앙목통주*/
-.enfpdkd {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 6900px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.enfpdkd1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -850px;
-}
-ul.enfpdkd1 li {
-  line-height: 35px;
-}
-li.enfpdkd2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*산정호수*/
-.thfdlv {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 7300px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.thfdlv1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -890px;
-}
-ul.thfdlv1 li {
-  line-height: 50px;
-}
-li.thfdlv2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*감귤주*/
-.wpwn {
-  width: 500px;
-  height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 7700px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.wpwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -960px;
-}
-ul.wpwn1 li {
-  line-height: 50px;
-}
-li.wpwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*도원결의*/
-.ehdnjs {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 8100px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.ehdnjs1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1020px;
-}
-ul.ehdnjs1 li {
-  line-height: 45px;
-}
-li.ehdnjs2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<리큐르/기타주류>===========================================================*/
-
-/*블링블링_바다별*/
-.qmffld {
-  width: 500px;
-  height: 330px;
-  position: absolute;
-  left: 200px;
-  top: 8500px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.qmffld1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1060px;
-}
-ul.qmffld1 li {
-  line-height: 45px;
-}
-li.qmffld2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*진도_홍주_진_15호*/
-.wlseh {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 8900px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.wlseh1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1100px;
-}
-ul.wlseh1 li {
-  line-height: 43px;
-}
-li.wlseh2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*고도리술*/
-.rhehfl {
-  width: 500px;
-  height: 340px;
-  position: absolute;
-  left: 200px;
-  top: 9300px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.rhehfl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1140px;
-}
-ul.rhehfl1 li {
-  line-height: 47px;
-}
-li.rhehfl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*이강주*/
-.dlrkdwn {
-  width: 500px;
-  height: 350px;
-  position: absolute;
-  left: 200px;
-  top: 9700px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.dlrkdwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1160px;
-}
-ul.dlrkdwn1 li {
-  line-height: 50px;
-}
-li.dlrkdwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*북한강*/
-.qnrgksrkd {
-  width: 500px;
-  height: 380px;
-  position: absolute;
-  left: 200px;
-  top: 10100px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.qnrgksrkd1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1180px;
-}
-ul.qnrgksrkd1 li {
-  line-height: 50px;
-}
-li.qnrgksrkd2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+.alcohol_txt .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
