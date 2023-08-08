@@ -1,14 +1,37 @@
-.hr {
-  position: relative;
-  top: 30px;
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+* {
+  font-family: "Black Han Sans", "Pretendard Variable", sans-serif;
+  margin: 0;
 }
-li {
-  display: inline;
-}
+
 a {
+  color: black;
   text-decoration: none;
 }
-.wjscp {
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  padding-top: 100px;
+  font-family: "Black Han Sans", "Pretendard Variable", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 74px;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+.header__title {
   width: 450px;
   font-family: "Black Han Sans", sans-serif;
   font-size: 42px;
@@ -16,728 +39,1031 @@ a {
   color: #00cbcb;
   padding: 5px 24px 0px 14px;
   box-sizing: border-box;
-  display: inline;
+  float: left;
 }
-.home {
+
+.header__title i {
+  font-size: 40px;
+  color: #00cbcb;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: right;
   font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 900px;
-  padding: 10px 20px;
   font-weight: 900;
+  line-height: 74px;
+  float: right;
+  margin-right: 80px;
 }
-/*술이야기*/
-.tnfdldirl {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1000px;
-  padding: 10px 20px;
-  font-weight: 900;
+
+.nav > div {
+  padding-left: 50px;
 }
-/*취향테스트*/
-.cnlgid {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1120px;
-  padding: 10px 20px;
-  font-weight: 900;
+
+.nav .nowpage a {
+  color: #00cbcb;
 }
-/*지도보기*/
-.wlehqhrl {
-  font-size: x-large;
-  line-height: inherit;
-  display: block;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 1250px;
-  padding: 10px 20px;
-  font-weight: 900;
+
+/* category */
+.category {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 50px;
 }
-/*탁주*/
-.xkrwn {
+
+.category > div {
   font-size: x-large;
   padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 500px;
-  margin-top: 30px;
-  text-decoration: none;
 }
-/*약주,청주*/
-.dirwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 600px;
-  margin-top: 30px;
-  text-decoration: none;
+
+/* wrap */
+.wrap {
+  width: 1280px;
+  margin: 0 auto;
 }
-/*과실주*/
-.rhktlfwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 750px;
-  margin-top: 30px;
-  text-decoration: none;
+
+.wrap > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
-/*증류주*/
-.wmdfbwn {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 850px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*라큐트/기타주류*/
-.flzbfm {
-  font-size: x-large;
-  padding: 20px;
-  text-align: left;
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 950px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-/*<탁주>============================================================*/
 
 /*고향춘*/
-.rhgidcns {
-  width: 500px;
-  height: 320px;
+.alcohol_img0 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
   position: relative;
-  left: 200px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.rhgidchs1 {
-  font-size: medium;
-  position: relative;
-  left: 780px;
-  bottom: 270px;
-  display: inline;
-}
-ul.rhgidchs1 li {
-  line-height: 50px;
-}
-li.rhgidchs2 {
-  position: relative;
-  top: -20px;
-  left: -550px;
-  font-size: xx-large;
+  top: 80px;
 }
 
-/*궁예의눈물*/
-.rnddPdmlsnsanf {
-  width: 500px;
+.alcohol_txt0 {
+  width: 100%;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 600px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.rnddPdmlsnsanf1 {
-  font-size: medium;
+  margin-left: 20px;
   position: relative;
-  left: 750px;
-  bottom: 170px;
-}
-ul.rnddPdmlsnsanf1 li {
-  line-height: 50px;
-}
-li.rnddPdmlsnsanf2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+  top: 80px;
 }
 
-/*쌀은원래달다*/
-.Tkfdmsekfek {
-  width: 500px;
+.alcohol_txt .alcohol_title0 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+  position: relative;
+  top: 80px;
+}
+
+.alcohol_txt0 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+  position: relative;
+  top: 80px;
+}
+
+.alcohol_txt0 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt0 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+
+/*궁예의 눈물*/
+.alcohol_img > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 1000px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.Tkfdmsekfek1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: 100px;
+
+.alcohol_txt {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.Tkfdmsekfek1 li {
-  line-height: 30px;
+
+.alcohol_txt .alcohol_title {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.Tkfdmsekfek2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*쌀은달다*/
+.alcohol_img1 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt1 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title1 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt1 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt1 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt1 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*소성주*/
-.thtjdwn {
-  width: 500px;
+.alcohol_img2 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 1400px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.thtjdwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -20px;
+
+.alcohol_txt2 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.thtjdwn1 li {
-  line-height: 30px;
+
+.alcohol_txt .alcohol_title2 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.thtjdwn2 {
-  position: relative;
-  top: -30px;
-  font-size: xx-large;
+
+.alcohol_txt2 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt2 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt2 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*삼해주*/
-.tkagown {
-  width: 500px;
-  height: 300px;
-  position: absolute;
-  left: 200px;
-  top: 1800px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.tkagown1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -110px;
-}
-ul.tkagown1 li {
-  line-height: 30px;
-}
-li.tkagown2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+.alcohol_img3 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
 
-/*<약주,청주>===========================================================*/
+.alcohol_txt3 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
 
-/*홍매반개주*/
-.qksrown {
-  width: 500px;
-  height: 330px;
-  position: absolute;
-  left: 200px;
-  top: 2200px;
-  margin-top: 50px;
-  border: 2px solid black;
+.alcohol_txt .alcohol_title3 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-ul.qksrown1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -180px;
+
+.alcohol_txt3 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
-ul.qksrown1 li {
-  line-height: 50px;
+
+.alcohol_txt3 .alcohol_info li {
+  margin-bottom: 15px;
 }
-li.qksrown2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt3 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*산정호수*/
-.tkswjdghwn {
-  width: 500px;
+.alcohol_img4 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 2600px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.tkswjdghwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -250px;
+
+.alcohol_txt4 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.tkswjdghwn1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title4 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.tkswjdghwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt4 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt4 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt4 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*보령주*/
-.qhfudwn {
-  width: 500px;
+.alcohol_img5 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3000px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.qhfudwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -320px;
+
+.alcohol_txt5 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.qhfudwn1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title5 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.qhfudwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt5 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt5 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt5 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*대담1호약주*/
-.eoeka {
-  width: 500px;
+.alcohol_img6 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3400px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.eoeka1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -390px;
+
+.alcohol_txt6 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.eoeka1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title6 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.eoeka2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt6 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt6 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt6 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*화전일취*/
-.ghkwjsdlfcnl {
-  width: 500px;
+.alcohol_img7 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 3800px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.ghkwjsdlfcnl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -460px;
-}
-ul.ghkwjsdlfcnl1 li {
-  line-height: 40px;
-}
-li.ghkwjsdlfcnl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<과실주>===========================================================*/
 
-/*추시감와인*/
-.cntl {
-  width: 500px;
+.alcohol_txt7 {
+  width: 100%;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 4200px;
-  margin-top: 50px;
-  border: 2px solid black;
+  margin-left: 20px;
 }
-ul.cntl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -520px;
+
+.alcohol_txt .alcohol_title7 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-ul.cntl1 li {
-  line-height: 50px;
+
+.alcohol_txt7 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
-li.cntl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt7 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt7 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*추시감와인*/
+.alcohol_img8 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt8 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title8 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt8 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt8 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt8 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*복숭아와인*/
-.qhrtnddk {
-  width: 500px;
+.alcohol_img9 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 4600px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.qhrtnddk1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -590px;
+
+.alcohol_txt9 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.qhrtnddk1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title9 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.qhrtnddk2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt9 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt9 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt9 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*애플린*/
-.dovnffls {
-  width: 500px;
+.alcohol_img10 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 5000px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.dovnffls1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -660px;
+
+.alcohol_txt10 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.dovnffls1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title10 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.dovnffls2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt10 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt10 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt10 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*딸기와인*/
-.Ekfrldhkdls {
-  width: 500px;
-  height: 420px;
-  position: absolute;
-  left: 200px;
-  top: 5400px;
-  margin-top: 50px;
-  border: 2px solid black;
+.alcohol_img11 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.Ekfrldhkdls1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -710px;
+
+.alcohol_txt11 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.Ekfrldhkdls1 li {
-  line-height: 80px;
+
+.alcohol_txt .alcohol_title11 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.Ekfrldhkdls2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt11 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt11 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt11 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*애플블랑*/
-.dovmf {
-  width: 500px;
-  height: 420px;
-  position: absolute;
-  left: 200px;
-  top: 5900px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.dovmf1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -740px;
-}
-ul.dovmf1 li {
-  line-height: 80px;
-}
-li.dovmf2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<증류주>============================================================*/
-
-/*양촌감보드카*/
-.didchs {
-  width: 500px;
-  height: 390px;
-  position: absolute;
-  left: 200px;
-  top: 6400px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.didchs1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -770px;
-}
-ul.didchs1 li {
-  line-height: 55px;
-}
-li.didchs2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*두레앙목통주*/
-.enfpdkd {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 6900px;
-  margin-top: 50px;
-  border: 2px solid black;
-}
-ul.enfpdkd1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -850px;
-}
-ul.enfpdkd1 li {
-  line-height: 35px;
-}
-li.enfpdkd2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*산정호수*/
-.thfdlv {
-  width: 500px;
+.alcohol_img12 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 7300px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.thfdlv1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -890px;
+
+.alcohol_txt12 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.thfdlv1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title12 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.thfdlv2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt12 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt12 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt12 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*양촌감보드카*/
+.alcohol_img13 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt13 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title13 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt13 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt13 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt13 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*두레앙 목통주*/
+.alcohol_img14 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt14 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title14 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt14 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt14 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt14 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*감귤주*/
-.wpwn {
-  width: 500px;
+.alcohol_img15 > img {
+  width: 376px;
   height: 290px;
-  position: absolute;
-  left: 200px;
-  top: 7700px;
-  margin-top: 50px;
-  border: 2px solid black;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.wpwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -960px;
+
+.alcohol_txt15 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.wpwn1 li {
-  line-height: 50px;
+
+.alcohol_txt .alcohol_title15 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-li.wpwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt15 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt15 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt15 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*도원결의*/
-.ehdnjs {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 8100px;
-  margin-top: 50px;
-  border: 2px solid black;
+.alcohol_img16 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.ehdnjs1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1020px;
-}
-ul.ehdnjs1 li {
-  line-height: 45px;
-}
-li.ehdnjs2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
-}
-/*<리큐르/기타주류>===========================================================*/
 
-/*블링블링_바다별*/
-.qmffld {
-  width: 500px;
-  height: 330px;
-  position: absolute;
-  left: 200px;
-  top: 8500px;
-  margin-top: 50px;
-  border: 2px solid black;
+.alcohol_txt16 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.qmffld1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1060px;
+
+.alcohol_txt .alcohol_title16 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-ul.qmffld1 li {
-  line-height: 45px;
+
+.alcohol_txt16 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
-li.qmffld2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt16 .alcohol_info li {
+  margin-bottom: 15px;
 }
-/*진도_홍주_진_15호*/
-.wlseh {
-  width: 500px;
-  height: 320px;
-  position: absolute;
-  left: 200px;
-  top: 8900px;
-  margin-top: 50px;
-  border: 2px solid black;
+
+.alcohol_txt16 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
-ul.wlseh1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1100px;
+/*블링블링 바다별*/
+.alcohol_img17 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.wlseh1 li {
-  line-height: 43px;
+
+.alcohol_txt17 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-li.wlseh2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt .alcohol_title17 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-/*고도리술*/
-.rhehfl {
-  width: 500px;
-  height: 340px;
-  position: absolute;
-  left: 200px;
-  top: 9300px;
-  margin-top: 50px;
-  border: 2px solid black;
+
+.alcohol_txt17 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
-ul.rhehfl1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1140px;
+
+.alcohol_txt17 .alcohol_info li {
+  margin-bottom: 15px;
 }
-ul.rhehfl1 li {
-  line-height: 47px;
+
+.alcohol_txt17 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
-li.rhehfl2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+/*진도 홍주 진 15호*/
+.alcohol_img18 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-/*이강주*/
-.dlrkdwn {
-  width: 500px;
-  height: 350px;
-  position: absolute;
-  left: 200px;
-  top: 9700px;
-  margin-top: 50px;
-  border: 2px solid black;
+
+.alcohol_txt18 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-ul.dlrkdwn1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1160px;
+
+.alcohol_txt .alcohol_title18 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
 }
-ul.dlrkdwn1 li {
-  line-height: 50px;
+
+.alcohol_txt18 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
-li.dlrkdwn2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt18 .alcohol_info li {
+  margin-bottom: 15px;
 }
-/*북한강*/
-.qnrgksrkd {
-  width: 500px;
-  height: 380px;
-  position: absolute;
-  left: 200px;
-  top: 10100px;
-  margin-top: 50px;
-  border: 2px solid black;
+
+.alcohol_txt18 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
-ul.qnrgksrkd1 {
-  font-size: medium;
-  position: relative;
-  left: 750px;
-  bottom: -1180px;
+/*고도리술*/
+.alcohol_img19 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
 }
-ul.qnrgksrkd1 li {
-  line-height: 50px;
+
+.alcohol_txt19 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
 }
-li.qnrgksrkd2 {
-  position: relative;
-  top: 0px;
-  font-size: xx-large;
+
+.alcohol_txt .alcohol_title19 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt19 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt19 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt19 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*이강주*/
+.alcohol_img20 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt20 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title20 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt20 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt20 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt20 .alcohol_info li:last-child {
+  margin-bottom: 0;
+}
+/*북한강*/
+.alcohol_img21 > img {
+  width: 376px;
+  height: 290px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.alcohol_txt21 {
+  width: 100%;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.alcohol_txt .alcohol_title21 {
+  display: flex;
+  align-items: center;
+  height: 74px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+.alcohol_txt21 .alcohol_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 216px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.alcohol_txt21 .alcohol_info li {
+  margin-bottom: 15px;
+}
+
+.alcohol_txt21 .alcohol_info li:last-child {
+  margin-bottom: 0;
 }
 /*위로가기*/
 .scroll-to-top {

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>부산한잔</title>
     <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=4a14ac2ec9df8726fc3ad08ca31d1792"></script>
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=29f6ba3d0320078e3d579bcf1cfd93fb"></script>
     <script src="./js/map.js" defer></script>
     <link
       rel="icon"
@@ -30,11 +31,15 @@
           id="searchtxt"
           class="searchtxt"
           placeholder="지역, 음식 또는 식당명 입력"
+          autocomplete="off"
+          value="구서동"
         />
+        <div class="autocomplete"><span>최근 검색어</span></div>
         <button><i id="xmark" class="fa-solid fa-xmark xmark"></i></button>
         <button><i class="fa-solid fa-magnifying-glass searchmark"></i></button>
       </div>
     </header>
+    <div class="blackboard"></div>
 
     <div id="list">
       <!-- 

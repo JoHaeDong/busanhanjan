@@ -80,7 +80,7 @@ export const results = [
   },
   {
     title: '술자리<br>토크!',
-    character: 'images/game/img2.jpg',
+    character: 'images/game/img3.jpg',
     results: [
       '다양한 주제에 관심이 많아요!',
       '술자리에서 진지한 이야기를 하면 즐거워요.',
