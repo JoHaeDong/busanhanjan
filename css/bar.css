@@ -28,6 +28,7 @@ body {
   padding: 5px 24px 0px 14px;
   box-sizing: border-box;
   float: left;
+  text-decoration: none;
 }
 
 .header__title i {
